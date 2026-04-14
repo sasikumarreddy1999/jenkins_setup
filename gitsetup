@@ -1,0 +1,35 @@
+Git install
+
+Configure ur name and email 1st.
+
+   $git config --global user.email "sasikumarerddy066@gmail.com"
+   $git config --global user.email "sasikumarerddy"
+
+1. go to server login with root access. 
+   ---->$ sudo -i
+
+2.Install git in the server.
+   ------>$ git install
+
+3.create a folder.
+---->$ mkdir jenkinssetup
+
+4.initalize the in the folder. 
+   -----> $git init
+
+5.create a file 
+   ----->touch jenfile1.txt
+
+6. The git add command is used to move changes from your working directory to the staging area in Git.
+
+      It tells Git: “I want to include these changes in my next commit.”
+ ------> $git add jenfile.txt
+
+7.To the stage the added file use the command  
+    ----> $git commit -m "Purpose of  the file"
+
+8.Check the status of $git status 
+
+9. To generate a key
+    ----->$ssh-keygen -t rsa -b 4096 -C "sasikumarreddy066@gmail.com"
+10. ls ~/.ssh
